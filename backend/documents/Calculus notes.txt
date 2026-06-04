@@ -1,0 +1,263 @@
+FUNCTIONS
+
+DEFINITION
+A function is a rule that assigns to each element x in a set D exactly one element f(x) in a set E.
+
+D = Domain
+Range = Set of all output values f(x)
+
+VERTICAL LINE TEST
+A curve in the xy-plane is the graph of a function of x if and only if no vertical line intersects the curve more than once.
+
+REPRESENTATIONS OF FUNCTIONS
+
+A function can be represented in four ways:
+
+1. Verbal Representation
+   Description in words.
+
+2. Numerical Representation
+   Table of values.
+
+3. Visual Representation
+   Graph.
+
+4. Algebraic Representation
+   Formula or equation.
+
+PIECEWISE-DEFINED FUNCTIONS
+
+A function may be defined by different formulas on different parts of its domain.
+
+f(x) = {
+x^2    if x >= 0
+-x     if x < 0
+}
+
+EVEN AND ODD FUNCTIONS
+
+Even Function:
+A function is even if
+
+f(-x) = f(x)
+
+for every x in its domain.
+
+Example:
+f(x) = x^2
+
+f(-x) = (-x)^2 = x^2 = f(x)
+
+Odd Function:
+A function is odd if
+
+f(-x) = -f(x)
+
+for every x in its domain.
+
+Example:
+f(x) = x^3
+
+f(-x) = (-x)^3 = -x^3 = -f(x)
+
+INCREASING AND DECREASING FUNCTIONS
+
+Increasing Function:
+f(x1) < f(x2) whenever x1 < x2
+
+Decreasing Function:
+f(x1) > f(x2) whenever x1 < x2
+
+LINEAR MODELS
+
+A linear function has the form
+
+y = mx + b
+
+where
+
+m = slope
+b = y-intercept
+
+The graph of a linear function is a straight line.
+
+POLYNOMIAL FUNCTIONS
+
+A polynomial function is
+
+f(x) = a_n*x^n + a_(n-1)*x^(n-1) + ... + a_2*x^2 + a_1*x + a_0
+
+where
+
+n >= 0
+a0, a1, ..., an are constants
+
+If an != 0, then the degree of the polynomial is n.
+
+Example:
+
+f(x) = x^2 + 3*x + 2
+
+Domain of every polynomial:
+
+(-inf, +inf)
+
+POWER FUNCTIONS
+
+A power function has the form
+
+f(x) = x^a
+
+where a is a constant.
+
+Examples:
+
+f(x) = x^2
+f(x) = x^3
+f(x) = sqrt(x)
+f(x) = 1/x
+
+RATIONAL FUNCTIONS
+
+A rational function is a ratio of two polynomials.
+
+f(x) = P(x)/Q(x)
+
+where Q(x) != 0
+
+Example:
+
+f(x) = (x+1)/(x-2)
+
+Domain:
+All real numbers except x = 2.
+
+ALGEBRAIC FUNCTIONS
+
+A function obtained using algebraic operations such as addition, subtraction, multiplication, division, and roots.
+
+Examples:
+
+f(x) = sqrt(x+1)
+f(x) = (x^2+1)/(x-1)
+
+TRANSCENDENTAL FUNCTIONS
+
+Functions that are not algebraic.
+
+Examples:
+
+Exponential Functions:
+f(x) = a^x
+
+Logarithmic Functions:
+f(x) = log(x)
+
+Trigonometric Functions:
+sin(x), cos(x), tan(x)
+
+COMBINATIONS OF FUNCTIONS
+
+Sum:
+(f+g)(x) = f(x) + g(x)
+
+Difference:
+(f-g)(x) = f(x) - g(x)
+
+Product:
+(fg)(x) = f(x)g(x)
+
+Quotient:
+(f/g)(x) = f(x)/g(x)
+
+where g(x) != 0
+
+COMPOSITE FUNCTIONS
+
+The composite function f∘g is defined by
+
+(f∘g)(x) = f(g(x))
+
+Example:
+
+f(x) = x^2
+g(x) = x + 1
+
+(f∘g)(x) = (x+1)^2
+
+ONE-TO-ONE FUNCTIONS
+
+A function is one-to-one if
+
+f(x1) = f(x2) implies x1 = x2
+
+HORIZONTAL LINE TEST
+
+A function is one-to-one if and only if no horizontal line intersects its graph more than once.
+
+INVERSE FUNCTIONS
+
+If f is one-to-one, then its inverse function f^(-1) exists.
+
+Definition:
+
+f^(-1)(f(x)) = x
+f(f^(-1)(x)) = x
+
+
+LOGARITHMIC FUNCTIONS
+
+A logarithmic function has the form
+
+f(x) = log_a(x)
+
+where
+
+a > 0
+a != 1
+
+and x > 0.
+
+The logarithmic function is the inverse of the exponential function
+
+y = a^x
+
+Example:
+
+f(x) = log_10(x)
+
+f(100) = 2
+
+because
+
+10^2 = 100
+
+Domain:
+(0, +inf)
+
+Range:
+(-inf, +inf)
+
+Common Logarithm:
+
+log(x) = log_10(x)
+
+Natural Logarithm:
+
+ln(x) = log_e(x)
+
+where
+
+e ≈ 2.71828
+
+Basic Properties:
+
+log_a(xy) = log_a(x) + log_a(y)
+
+log_a(x/y) = log_a(x) - log_a(y)
+
+log_a(x^n) = n*log_a(x)
+
+log_a(1) = 0
+
+log_a(a) = 1
