@@ -9,6 +9,7 @@ env/
 # Python cache files
 __pycache__/
 *.py[cod]
+__init__.py
 
 # IDE files (optional)
 .vscode/
@@ -19,3 +20,4 @@ __pycache__/
 Thumbs.db
 
 .gitignore
+

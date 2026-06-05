@@ -10,5 +10,3 @@ class Question(BaseModel):
 class Quiz(BaseModel):
     questions: List[Question]
 
-class File(BaseModel):
-    file_paths: List[str]

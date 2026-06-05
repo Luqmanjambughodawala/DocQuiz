@@ -1,6 +1,6 @@
 from langchain_mistralai import ChatMistralAI
 from langchain_core.prompts import ChatPromptTemplate
-from schema.schema import Quiz
+from backend.schema.schema import Quiz
 from dotenv import load_dotenv
 
 load_dotenv()
