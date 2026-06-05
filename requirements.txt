@@ -4,6 +4,4 @@ python-dotenv
 fastapi
 uvicorn
 streamlit
-langchain-unstructured[local]
-unstructured[pdf]
-unstructured_inference
+

@@ -21,7 +21,7 @@ def get_question(data):
                     * Ensure questions are clear, concise, and unambiguous.
                     * Do not repeat questions or concepts unnecessarily.
                     * Return the output strictly according to the provided schema.
-    '''),
+                    '''),
     ('human','{data}')
     ])
 
